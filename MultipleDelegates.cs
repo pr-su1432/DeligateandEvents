@@ -13,8 +13,8 @@ namespace DelegateandEvents
         {
             DelOp obj = Operation.Add;
             obj += Operation.Square;
-            obj(9, 5);
-            obj(8, 3);
+            obj(6, 9);
+            obj(7, 8);
             Console.ReadLine();
         }
         public class Operation
